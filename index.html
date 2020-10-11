@@ -5,23 +5,30 @@
         <title>Dark-Mode</title>
         <link rel="stylesheet" href="style.css">
 	</head>
+
 	<body>
 		<body>
-  <div class="text-box">
-    <div class="theme-toggle">
-    <h2></h2>
-    <label class="switch">
-      <input type="checkbox" onclick="switchTheme()">
-      <span class="slider"></span>
-    </label>
-  </div>
-  </div>
+      <h1>Dark-Mode for the Web</h1>
 
-  <footer>
-      <div>
-        <h1>View my portfolio <a href="https://ajb.app">here</a></h1>
+      <div class="text-box">
+        <p>Switching between a dark and light color palettes involves more than just switching between darker and lighter background colors. Most importantly, you need to ensure that colors on both palettes meet contrast requirements for accessibility. Many colors will not be interchangeable between modes. This means that you may need different primary or brand colors for each palette.<br> <br>Darker shades should be reserved for surfaces at the back of the page, with lighter and lighter shades used as you approach the front. For example, to indicate that a modal sits on top of the page, its background color should be lighter than the background color of the section behind it.</p>
+
+        <div class="theme-toggle">
+          <h2></h2>
+          <label class="switch">
+            <input type="checkbox" onclick="switchTheme()">
+            <span class="slider"></span>
+          </label>
+        </div>
       </div>
-  </footer>
-        <script src="main.js"></script>
+
+      <footer>
+        <div>
+          <h3>View my portfolio <a href="https://ajb.app">here</a></h3>
+        </div>
+      </footer>
+
+    <script src="main.js"></script>
+
 	</body>
 </html>
